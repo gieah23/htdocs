@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/P2/Tri_Ambarwati/';
+$config['base_url'] = 'http://localhost/P2/Tri_Ambarwati';
 
 /*
 |--------------------------------------------------------------------------
@@ -52,7 +52,7 @@ $config['index_page'] = 'index.php';
 |
 | WARNING: If you set this to 'PATH_INFO', URIs will always be URL-decoded!
 */
-$config['uri_protocol']	= '';
+$config['uri_protocol']	= 'http://localhost/belajarweb/';
 
 /*
 |--------------------------------------------------------------------------
