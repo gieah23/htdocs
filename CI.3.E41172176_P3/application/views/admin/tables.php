@@ -145,35 +145,28 @@
               <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                 <thead>
                   <tr>
-                    <th>Name</th>
-                    <th>Position</th>
-                    <th>Office</th>
-                    <th>Age</th>
-                    <th>Start date</th>
-                    <th>Salary</th>
+                    <th>Kode</th>
+                    <th>Nama</th>
+                    <th>Deskripsi</th>
+                    <th>Stok</th>
+                    <th>Harga</th>
+                    <th>Menu</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
-                    <td>
-                      Ilham
-                    </td>
-                    <td>
-                      Engineer
-                    </td>
-                    <td>
-                      Bukalapak.com
-                    </td>
-                    <td>
-                      20
-                    </td>
-                    <td>
-                      1 April 1999
-                    </td>
-                    <td>
-                      Rp.7.500.000,.
-                    <td>
-                  </tr>
+                    <?php 
+                        foreach($nama as $row){
+                          echo '<tr>';
+                          echo "<td>".$row->kdbarang. "</td>";
+                          echo "<td>".$row->nama. "</td>";
+                          echo "<td>".$row->deskripsi. "</td>";
+                          echo "<td>".$row->stokbarang. "</td>";
+                          echo "<td>".$row->hargabarang. "</td>";
+                          echo '<td><button type="button" class="btn btn-success">EDIT</button> 
+                          <button type="button" class="btn btn-danger">HAPUS</button></td>';
+                          echo '</tr>';
+                        }
+                    ?>
                 </tbody>
               </table>
             </div>
