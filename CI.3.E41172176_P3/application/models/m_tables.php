@@ -3,5 +3,6 @@
         function daftar_barang(){
             return $this->db->get("barang")->result();
         }
+
     }
  ?>
