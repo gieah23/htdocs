@@ -2,16 +2,24 @@
 
 class barang extends CI_controller{
 
+    function _construct(){
+        parent::_construct();
+        //load class m_brang
+        $this->load->model("m_barang");
+        //load class form_validation
+        $this->load->library("form_validation");
+    }
     function index(){
-        $this->load->model('m_barang');
-        $judul="barang";
-        $data['judul']=$judul;
-        $data['barang']=$this->m_barang->list_barang();
-        $this->load->view('v_barang',$data);
+        $data['list']=$this->m_barang->getAll();
+        $this->load->view('admin/barang/v_barang',$data);
     }
     
-    function edit(){
-         echo "edit";
+    function add(){
+        $this->load->view('admin/barang/v_tambah');
+        
     }
+    function edit($id){
+      
+   }
 
 }
