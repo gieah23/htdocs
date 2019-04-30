@@ -52,8 +52,7 @@ $config['index_page'] = 'index.php';
 |
 | WARNING: If you set this to 'PATH_INFO', URIs will always be URL-decoded!
 */
-$config['uri_protocol']	= 'http://localhost/belajarweb/';
-
+$config['uri_protocol']	= 'http://localhost/CI.3.E41172128_P3';
 /*
 |--------------------------------------------------------------------------
 | URL suffix
