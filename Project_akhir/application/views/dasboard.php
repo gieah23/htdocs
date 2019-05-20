@@ -144,7 +144,7 @@
           <span>Input Data</span>
         </a>
         <div class="dropdown-menu" aria-labelledby="pagesDropdown">
-          <h6 class="dropdown-header">Presensi:</h6>
+          <h6 class="dropdown-header">Input Data:</h6>
           <a class="dropdown-item" href="inputdatasiswa.html">Input Data Siswa</a>
           <a class="dropdown-item" href="inputdataguru.html">Input Data Guru Guru</a>
         </div>
