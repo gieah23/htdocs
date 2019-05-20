@@ -27,7 +27,7 @@
 
   <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 
-    <a class="navbar-brand mr-1" href="index.html">Start Bootstrap</a>
+    <a class="navbar-brand mr-1" href="index.html">Absensi</a>
 
     <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
       <i class="fas fa-bars"></i>
@@ -103,7 +103,7 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="pagesDropdown">
           <h6 class="dropdown-header">Login Screens:</h6>
-          <a class="dropdown-item" href="login.html">Login</a>
+          <a class="dropdown-item" href="login.php">Login</a>
           <a class="dropdown-item" href="register.html">Register</a>
           <div class="dropdown-divider"></div>
           <h6 class="dropdown-header">Other Pages:</h6>
@@ -116,10 +116,16 @@
           <i class="fas fa-fw fa-chart-area"></i>
           <span>Charts</span></a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="tables.html">
-          <i class="fas fa-fw fa-table"></i>
-          <span>Tables</span></a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-fw fa-folder"></i>
+          <span>Tables</span>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="pagesDropdown">
+          <h6 class="dropdown-header">Tables:</h6>
+          <a class="dropdown-item" href="login.html">Siswa</a>
+          <a class="dropdown-item" href="register.html">Guru</a>
+        </div>
       </li>
     </ul>
 
