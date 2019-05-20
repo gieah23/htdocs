@@ -19,7 +19,7 @@
 <link href=<?php echo base_url("assets/datatables/dataTables.bootstrap4.css");?> rel="stylesheet">
 
 <!-- Custom styles for this template-->
-<link href=<?php echo base_url("css/sb-admin.css"); ?> rel="stylesheet">
+<link href=<?php echo base_url("css/sb-admin-2.css"); ?> rel="stylesheet">
 
 </head>
 
@@ -761,7 +761,7 @@
   <script src=<?php echo base_url("assets/datatables/dataTables.bootstrap4.js");?>></script>
 
   <!-- Custom scripts for all pages-->
-  <script src=<?php echo base_url("js/sb-admin.min.js")?>></script>
+  <script src=<?php echo base_url("js/sb-admin-2.min.js")?>></script>
 
   <!-- Demo scripts for this page-->
   <script src=<?php echo base_url("js/demo/datatables-demo.js");?>></script>
