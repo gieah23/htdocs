@@ -80,8 +80,8 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="pagesDropdown">
           <h6 class="dropdown-header">Data:</h6>
-          <a class="dropdown-item" href="login.html">Siswa</a>
-          <a class="dropdown-item" href="register.html">Guru</a>
+          <a class="dropdown-item" href="datasiswa.html">Siswa</a>
+          <a class="dropdown-item" href="dataguru.html">Guru</a>
         </div>
       </li>
       <li class="nav-item dropdown">
@@ -91,10 +91,21 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="pagesDropdown">
           <h6 class="dropdown-header">Presensi:</h6>
-          <a class="dropdown-item" href="login.html">Siswa</a>
-          <a class="dropdown-item" href="register.html">Guru</a>
+          <a class="dropdown-item" href="presensisiswa.html">Siswa</a>
+          <a class="dropdown-item" href="presensiguru.html">Guru</a>
         </div>
       </li>
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-fw fa-folder"></i>
+          <span>Iput Data</span>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="pagesDropdown">
+          <h6 class="dropdown-header">Tables:</h6>
+          <a class="dropdown-item" href="inputdatasiswa.html">Input Data Siswa</a>
+          <a class="dropdown-item" href="inputdataguru.html">Input Data Guru</a>
+        </div>
+     </li>
     </ul>
 
   </nav>
