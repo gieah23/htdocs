@@ -10,7 +10,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>SB Admin - Dashboard</title>
+  <title>SB Admin - Jadwal Pelajaran</title>
 
   <!-- Custom fonts for this template-->
   <link href=<?php echo base_url("assets/fontawesome-free/css/all.min.css"); ?> rel="stylesheet" type="text/css">
@@ -27,7 +27,7 @@
 
   <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 
-    <a class="navbar-brand mr-1" href="#">Absensi</a>
+    <a class="navbar-brand mr-1" href="index.html">Absensi</a>
 
     <!-- Navbar Search -->
     <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
@@ -61,7 +61,7 @@
   <div id="wrapper">
 
     <!-- Sidebar -->
-    <ul class="sidebar navbar-nav">
+        <ul class="sidebar navbar-nav">
       <li class="nav-item active">
         <a class="nav-link" href="index.html">
           <i class="fas fa-fw fa-tachometer-alt"></i>
@@ -84,7 +84,7 @@
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="index.php/jadwalpelajaran">
+        <a class="nav-link" href="tables.html">
           <i class="fas fa-fw fa-table"></i>
           <span>Jadwal Pelajaran</span></a>
       </li>
@@ -95,8 +95,8 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="pagesDropdown">
           <h6 class="dropdown-header">Data:</h6>
-          <a class="dropdown-item" href="index.php/datasiswa">Siswa</a>
-          <a class="dropdown-item" href="index.php/dataguru">Guru</a>
+          <a class="dropdown-item" href="datasiswa">Siswa</a>
+          <a class="dropdown-item" href="dataguru">Guru</a>
         </div>
       </li>
       <li class="nav-item dropdown">
@@ -106,8 +106,8 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="pagesDropdown">
           <h6 class="dropdown-header">Presensi:</h6>
-          <a class="dropdown-item" href="presensisiswa.html">Siswa</a>
-          <a class="dropdown-item" href="presensiguru.html">Guru</a>
+          <a class="dropdown-item" href="presensisiswa">Siswa</a>
+          <a class="dropdown-item" href="presensiguru">Guru</a>
         </div>
       </li>
             <li class="nav-item dropdown">
@@ -117,8 +117,8 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="pagesDropdown">
           <h6 class="dropdown-header">Presensi:</h6>
-          <a class="dropdown-item" href="inputdatasiswa.html">Input Data Siswa</a>
-          <a class="dropdown-item" href="inputdataguru.html">Input Data Guru Guru</a>
+          <a class="dropdown-item" href="inputdatasiswa">Input Data Siswa</a>
+          <a class="dropdown-item" href="inputdataguru">Input Data Guru Guru</a>
         </div>
       </li>
     </ul>
@@ -126,31 +126,75 @@
     <div id="content-wrapper">
 
       <div class="container-fluid">
-        <div class="wrapper fadeInDown">
-  <div id="formContent">
-    <!-- Tabs Titles -->
 
-    <!-- Icon -->
-    <div class="fadeIn first">
-      <img src="http://danielzawadzki.com/codepen/01/icon.svg" id="icon" alt="User Icon" />
-    </div>
+        <!-- Breadcrumbs-->
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="#">Data</a>
+          </li>
+          <li class="breadcrumb-item active">Data Guru</li>
+        </ol>
 
-    <!-- Login Form -->
-    <form>
-      <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
-      <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
-      <input type="submit" class="fadeIn fourth" value="Log In">
-    </form>
+        <!-- Icon Cards-->
+       
 
-    <!-- Remind Passowrd -->
-    <div id="formFooter">
-      <a class="underlineHover" href="#">Forgot Password?</a>
-    </div>
+        <!-- DataTables Example -->
+        <div class="card mb-3">
+          <div class="card-header">
+            <i class="fas fa-table"></i>
+            Data Table Example</div>
+          <div class="card-body">
+            <div class="table-responsive">
+              <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                  <tr>
+                    <th>Kode Mata Pelajaran</th>
+                    <th>Mata Pelajaran</th>
+                    <th>Jam</th>
+                    <th>Hari</th>
+                    <th>Kelas</th>
+                    <th>Golongan</th>
+                    <th>Nama Guru</th>
+                  </tr>
+                </thead>
+                <tfoot>
+                  <tr>
+                    <th>Kode Mata Pelajaran</th>
+                    <th>Mata Pelajaran</th>
+                    <th>Jam</th>
+                    <th>Hari</th>
+                    <th>Kelas</th>
+                    <th>Golongan</th>
+                    <th>Nama Guru</th>
+                  </tr>
+                </tfoot>
+                <tbody>
+                  <tr>
+                    <td>62376</td>
+                    <td>BHS Inggris</td>
+                    <td>14.00</td>
+                    <td>Kamis</td>
+                    <td>11</td>
+                    <td>B</td>
+                    <td>satifa</td>
+                  </tr>
+                  <tr>
+                    <td>0932456</td>
+                    <td>Bhs. Madura</td>
+                    <td>08.00</td>
+                    <td>Rabu</td>
+                    <td>12</td>
+                    <td>D</td>
+                    <td>latifa</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+        </div>
 
-  </div>
-</div>
-
-      
+      </div>
       <!-- /.container-fluid -->
 
       <!-- Sticky Footer -->
