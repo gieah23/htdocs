@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 class login extends CI_Controller{
     function _construct(){
@@ -32,3 +33,22 @@ class login extends CI_Controller{
         redirect(base_url('index.php/login'));
     }
 }
+=======
+<?php 
+class v_login extends CI_Controller{ 
+    function __construct(){ parent::__construct(); 
+        $this->load->model('model_userLog'); 
+    } 
+    function login() {
+         if(isset($_POST['submit'])){ 
+             $username = $this->input->post('username'); 
+             $password = $this->input->post('password'); 
+             $berhasil = $this->model_userLog->login($username,$password); 
+             echo $berhasil; 
+            }else{
+                 $this->load->view('form_login'); 
+                } 
+            } 
+        }
+ 
+>>>>>>> 7b5baa570375347d8b68d6704cb87e27ee4e1bb4
