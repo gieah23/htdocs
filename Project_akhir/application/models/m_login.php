@@ -1,11 +1,6 @@
 <?php 
 class m_login extends CI_Model{ 
-    function login($username,$password){ 
-        $periksa = $this->db->get_where('users',array('username'=>$username,'password'=> md5($password))); 
-        if($periksa->num_rows()>0){ 
-            return 1; 
-        }else{ 
-            return 0; 
-        } 
+    function cek_login($table,$where){ 
+        return $this->db->get_where($table,$where);       
     } 
 }

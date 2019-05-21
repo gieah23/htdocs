@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -1000,4 +998,3 @@
 </body>
 
 </html>
->>>>>>> 7b5baa570375347d8b68d6704cb87e27ee4e1bb4
