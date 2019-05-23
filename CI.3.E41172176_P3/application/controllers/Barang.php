@@ -15,7 +15,6 @@
 
         function add(){
             $barang=$this->m_barang;
-            $valisadi=$this->form_fa
             $barang->save();
             $this->load->view('admin/v_tambah.php');
         }

@@ -36,7 +36,7 @@
           <li class="breadcrumb-item">
             <a href="#">Data</a>
           </li>
-          <li class="breadcrumb-item active">Data Guru</li>
+          <li class="breadcrumb-item active">Data Siswa</li>
         </ol>
 
         <!-- Icon Cards-->

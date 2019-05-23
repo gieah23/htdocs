@@ -6,4 +6,4 @@
             $this->load->view('admin/tables', $data);
         }
     }
-    
+?>

@@ -39,7 +39,7 @@
           <span>Jadwal Pelajaran</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="tables.html">
+        <a class="nav-link" href="index.php/datasiswa">
           <i class="fas fa-fw fa-table"></i>
           <span>Presensi</span></a>
       </li>
