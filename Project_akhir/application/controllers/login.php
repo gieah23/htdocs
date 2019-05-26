@@ -16,7 +16,7 @@ class login extends CI_Controller{
             );
         $cek = $this->m_login->cek_login("dataadmin",$where)->num_rows();
         if($cek > 0){
-            $data_session = array(-
+            $data_session = array(
                 'nama' => $username,
                 'status' => "login"
             );
@@ -32,3 +32,21 @@ class login extends CI_Controller{
         redirect(base_url('index.php/login'));
     }
 }
+=======
+<?php 
+class v_login extends CI_Controller{ 
+    function __construct(){ parent::__construct(); 
+        $this->load->model('model_userLog'); 
+    } 
+    function login() {
+         if(isset($_POST['submit'])){ 
+             $username = $this->input->post('username'); 
+             $password = $this->input->post('password'); 
+             $berhasil = $this->model_userLog->login($username,$password); 
+             echo $berhasil; 
+            }else{
+                 $this->load->view('form_login'); 
+                } 
+            } 
+        }
+ 
