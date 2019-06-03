@@ -10,7 +10,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Grayscale - Start Bootstrap Theme</title>
+  <title>Portal Absensis Siswa</title>
 
   <!-- Bootstrap core CSS -->
   <link href=<?php echo base_url("assets/member/vendor/bootstrap/css/bootstrap.min.css");?> rel="stylesheet">
@@ -27,7 +27,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">PIANO</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">PORTAL ABSENSI SISWA</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -36,9 +36,6 @@
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#log">Login</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -62,19 +59,7 @@
     </div>
   </header>
 
-  <!-- About Section -->
-  <section id="about" class="about-section text-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2 class="text-white mb-4">Built with Bootstrap 4</h2>
-          <p class="text-white-50">Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
-            <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
-        </div>
-      </div>
-      <img src="img/ipad.png" class="img-fluid" alt="">
-    </div>
-  </section>
+  
 
   <!-- Contact Section -->
   <section id="contact" class="contact-section bg-black">
