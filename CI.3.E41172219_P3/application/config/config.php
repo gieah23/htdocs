@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/projek_akhir';
+$config['base_url'] = 'http://localhost/CI.3.E41172128_P3';
 
 /*
 |--------------------------------------------------------------------------
@@ -35,7 +35,7 @@ $config['base_url'] = 'http://localhost/projek_akhir';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = '';
+$config['index_page'] = 'index.php';
 
 /*
 |--------------------------------------------------------------------------
@@ -43,17 +43,16 @@ $config['index_page'] = '';
 |--------------------------------------------------------------------------
 |
 | This item determines which server global should be used to retrieve the
-| URI string.  The default setting of 'REQUEST_URI' works for most servers.
+| URI string.  The default setting of 'http://localhost/belajarweb/' works for most servers.
 | If your links do not seem to work, try one of the other delicious flavors:
 |
-| 'REQUEST_URI'    Uses $_SERVER['REQUEST_URI']
+| 'http://localhost/belajarweb/'    Uses $_SERVER['http://localhost/belajarweb/']
 | 'QUERY_STRING'   Uses $_SERVER['QUERY_STRING']
 | 'PATH_INFO'      Uses $_SERVER['PATH_INFO']
 |
 | WARNING: If you set this to 'PATH_INFO', URIs will always be URL-decoded!
 */
-$config['uri_protocol']	= 'REQUEST_URI';
-
+$config['uri_protocol']	= 'http://localhost/CI.3.E41172128_P3';
 /*
 |--------------------------------------------------------------------------
 | URL suffix
