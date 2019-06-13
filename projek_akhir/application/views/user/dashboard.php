@@ -53,6 +53,9 @@
           <h6 class="dropdown-header">Data:</h6>
           <a class="dropdown-item" href="#">Siswa</a>
           <a class="dropdown-item" href="#">Guru</a>
+					<a class="dropdown-item" href="#">Mapel</a>
+					<a class="dropdown-item" href="#">Jadwal</a>
+					<a class="dropdown-item" href="#">Kelas</a>
         </div>
       </li>
         
