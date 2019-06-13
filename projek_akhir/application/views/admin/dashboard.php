@@ -39,8 +39,39 @@
           <li class="breadcrumb-item">
             <a href="#">Dashboard</a>
           </li>
+					<li class="breadcrumb-item">
+            <a href="#">Dashboard</a>
+          </li>
           <li class="breadcrumb-item active">Overview</li>
         </ol>
+				<li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-fw fa-folder"></i>
+          <span>Data</span>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="pagesDropdown">
+          <h6 class="dropdown-header">Data:</h6>
+          <a class="dropdown-item" href="#">Siswa</a>
+          <a class="dropdown-item" href="#">Guru</a>
+					<a class="dropdown-item" href="#">Mapel</a>
+					<a class="dropdown-item" href="#">Jadwal</a>
+					<a class="dropdown-item" href="#">Kelas</a>
+        </div>
+      </li>
+				<li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-fw fa-folder"></i>
+          <span>Input Data</span>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="pagesDropdown">
+          <h6 class="dropdown-header">Data:</h6>
+          <a class="dropdown-item" href="#">Siswa</a>
+          <a class="dropdown-item" href="#">Guru</a>
+					<a class="dropdown-item" href="#">Mapel</a>
+					<a class="dropdown-item" href="#">Jadwal</a>
+					<a class="dropdown-item" href="#">Kelas</a>
+        </div>
+      </li>
         
         <?php include 'datatable.php' ?>
 
