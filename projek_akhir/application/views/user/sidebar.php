@@ -31,10 +31,6 @@
           <a class="dropdown-item" href="#">Guru</a>
           <a class="dropdown-item" href="#">Siswa</a>
           <a class="dropdown-item" href="#">Mata Pelajaran</a>
-          <div class="dropdown-divider"></div>
-          <h6 class="dropdown-header">Absensi:</h6>
-          <a class="dropdown-item" href="#">Guru</a>
-          <a class="dropdown-item" href="#">Siswa</a>
         </div>
       </li>
     </ul>
