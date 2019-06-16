@@ -12,4 +12,10 @@
           <a class="dropdown-item" href="forgot-password.html">Ruang Kelas</a> 
         </div>
       </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link" href="index.html">
+          <i class="fas fa-fw fa-tachometer-alt"></i>
+          <span>Mata Pelajaran</span>
+        </a>
+      </li>
     </ul>

@@ -16,16 +16,6 @@
                     <th>Golongan</th>
                   </tr>
                 </thead>
-                <tfoot>
-                  <tr>
-                    <th>NIS</th>
-                    <th>Nama</th>
-                    <th>Jenis Kelamin</th>
-                    <th>Kelas</th>
-                    <th>Umur</th>
-                    <th>Golongan</th>
-                  </tr>
-                </tfoot>
                 <tbody>
                   <tr>
                     <td>0987654</td>

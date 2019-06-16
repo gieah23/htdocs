@@ -2,7 +2,7 @@
         <div class="card mb-3">
           <div class="card-header">
             <i class="fas fa-table"></i>
-            Data Table Example</div>
+            Data Guru</div>
           <div class="card-body">
             <div class="table-responsive">
               <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
@@ -15,17 +15,7 @@
                     <th>Alamat</th>
                     <th>Mata Pelajaran</th>
                   </tr>
-                </thead>
-                <tfoot>
-                  <tr>
-                    <th>NIK</th>
-                    <th>Nama</th>
-                    <th>Jenis Kelamin</th>
-                    <th>Umur</th>
-                    <th>Alamat</th>
-                    <th>Mata Pelajaran</th>
-                  </tr>
-                </tfoot>
+                </thead>                
                 <tbody>
                   <tr>
                     <td>0987654</td>
