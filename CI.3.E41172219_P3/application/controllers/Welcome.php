@@ -20,6 +20,6 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('admin/Dasbord');
+		$this->load->view('beranda');
 	}
 }

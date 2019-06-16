@@ -4384,7 +4384,7 @@ input[type="button"].btn-block {
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #495057;
+  color: #fcfcfc;
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
 }
@@ -6826,8 +6826,8 @@ button.bg-light:focus {
   background-color: #dae0e5 !important;
 }
 
-.bg-dark {
-  background-color: #343a40 !important;
+.bg-blue {
+  background-color: rgb(66, 111, 180) !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -10487,7 +10487,7 @@ body {
 
 .sidebar {
   width: 90px !important;
-  background-color: #212529;
+  background-color: #c2e1fa;
   min-height: calc(100vh - 56px);
 }
 
