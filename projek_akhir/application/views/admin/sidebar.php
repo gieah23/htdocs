@@ -13,8 +13,8 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="pagesDropdown">
           <h6 class="dropdown-header">Data:</h6>
-          <a class="dropdown-item" href="dataguru.php">Guru</a>
-          <a class="dropdown-item" href="datasiswa.php">Siswa</a>
+          <a class="dropdown-item" href="dataguru">Guru</a>
+          <a class="dropdown-item" href="datasiswa">Siswa</a>
         </div>
         <li class="nav-item dropdown">
           <a class="nav-link" href="tables.html">
