@@ -42,7 +42,7 @@
           <li class="breadcrumb-item active">Overview</li>
         </ol>
         
-        <?php include 'datasiswa' ?>
+        <?php include 'dataguru' ?>
 
     </div>
       <!-- /.container-fluid -->
