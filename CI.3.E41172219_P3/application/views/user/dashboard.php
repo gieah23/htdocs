@@ -10,7 +10,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>SB Admin - Data Siswa</title>
+  <title>SB Admin - Dashboard</title>
 
   <!-- Custom fonts for this template-->
   <link href=<?php echo base_url("assets/fontawesome-free/css/all.min.css"); ?> rel="stylesheet" type="text/css">

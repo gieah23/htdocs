@@ -34,7 +34,7 @@
       <div id="content-wrapper">
 
       <div class="container-fluid">
-      	<!-- Breadcrumbs-->
+        <!-- Breadcrumbs-->
         <ol class="breadcrumb">
           <li class="breadcrumb-item">
             <a href="#">Dashboard</a>
@@ -42,9 +42,9 @@
           <li class="breadcrumb-item active">Overview</li>
         </ol>
         
-        <?php include 'datatable.php' ?>
+        <?php include 'dataguru' ?>
 
-      </div>
+    </div>
       <!-- /.container-fluid -->
 
       <!-- Sticky Footer -->
