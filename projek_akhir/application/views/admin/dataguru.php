@@ -16,16 +16,6 @@
                     <th>Mata Pelajaran</th>
                   </tr>
                 </thead>
-                <tfoot>
-                  <tr>
-                    <th>NIK</th>
-                    <th>Nama</th>
-                    <th>Jenis Kelamin</th>
-                    <th>Umur</th>
-                    <th>Alamat</th>
-                    <th>Mata Pelajaran</th>
-                  </tr>
-                </tfoot>
                 <tbody>
                   <tr>
                     <td>0987654</td>
