@@ -1,7 +1,7 @@
     <!-- Sidebar -->
     <ul class="sidebar navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="index.html">
+        <a class="nav-link" href="dashboard">
           <i class="fas fa-fw fa-tachometer-alt"></i>
           <span>Dashboard</span>
         </a>
@@ -13,8 +13,8 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="pagesDropdown">
           <h6 class="dropdown-header">Data:</h6>
-          <a class="dropdown-item" href="dataguru">Guru</a>
-          <a class="dropdown-item" href="datasiswa">Siswa</a>
+          <a class="dropdown-item" href='admin/dataguru'>Guru</a>
+          <a class="dropdown-item" href='admin/datasiswa'>Siswa</a>
         </div>
         <div class="dropdown-menu" aria-labelledby="pagesDropdown">
           <h6 class="dropdown-header">Input Data:</h6>
@@ -22,7 +22,7 @@
           <a class="dropdown-item" href="#">Siswa</a>
         </div>
         <li class="nav-item dropdown">
-          <a class="nav-link" href="tables.html">
+        <a class="nav-link" href='admin/mapel'>
             <i class="fas fa-fw fa-folder"></i>
               <span>Mata Pelajaran</span>
           </a>
