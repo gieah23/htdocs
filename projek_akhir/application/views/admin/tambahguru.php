@@ -109,7 +109,7 @@
        
 <div class="container">
 
-<h3><p align="left">Tambah Data Mahasiswa</p></h3>
+<h3><p align="left">Tambah Data Siswa</p></h3>
 <form name="form1" method="post" action="dataguru.php"> 
 
 	<table class='table table-bordered table-hover'><br><br>
