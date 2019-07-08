@@ -109,7 +109,7 @@
        
 <div class="container">
 
-	<a href="tambahguru/add" class="btn btn-primary">Tambah Data Guru</a>
+	<a href='tambahguru' class="btn btn-primary">Tambah Data Guru</a>
 
 	<table class='table table-bordered table-hover'><br><br>
 		<thead>
@@ -126,16 +126,17 @@
 		</thead>
 		<tbody>
 			<!-- ISI DATA AKAN MUNCUL DISINI -->
-		      <tr>
-				  	<td>0987654</td>
-            <td>Alucard</td>
-            <td>L</td>
-            <td>11</td>
-            <td>Jalan Jalan</td>
-            <td>Bhs Inggris</td>
-					  <td>30007</td>
-					  <td>1</td>
-          </tr>              
+		      <tr><?php foreach($nama as $row){ ?>
+         
+        <td> <?php echo $row->nip."</br>";?> </td>
+        <td> <?php echo $row->nama_guru."</br>";?> </td>
+        <td> <?php echo $row->alamat."</br>";?> </td>
+        <td> <?php echo $row->email."</br>";?> </td>
+        <td> <?php echo $row->no_hp."</br>";}?> </td>
+        <td> <?php echo $row->jk."</br>";}?> </td>
+        <td> <?php echo $row->kode_mapel."</br>";}?> </td>
+        <td> <?php echo $row->kelas."</br>";}?> </td>        
+        </tr>              
 			
 		</tbody>
 	</table>

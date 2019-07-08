@@ -26,7 +26,7 @@
 
 <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 
-    <a class="navbar-brand mr-1" href="index.html">Absensi</a>
+    <a class="navbar-brand mr-1" href="index.html">Absensi </a>
 
     <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
       <i class="fas fa-bars"></i>
@@ -101,7 +101,7 @@
 	<table class='table table-bordered table-hover'><br><br>
 		<thead>
 			<tr>
-                <th>Kode Mata pelajaran</th>
+                <th>Hari</th>
 				<th>Nama Mata Pelajaran</th>
 				
 			</tr>
