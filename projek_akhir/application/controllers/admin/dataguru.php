@@ -22,6 +22,6 @@ class Dataguru extends CI_Controller {
 	{
 		$this->load->model("m_guru");
 		$data['nama']=$this->m_guru->dataguru();
-		$this->load->view('admin/guru',$data);
+		$this->load->view('admin/',$data);
 	}
 }
