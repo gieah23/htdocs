@@ -15,7 +15,7 @@
         <li class="nav-item dropdown">
           <a class="nav-link" href="tables.html">
             <i class="fas fa-fw fa-folder"></i>
-              <span>absen sekolah</span>
+              <span>Absen Sekolah</span>
           </a>
         </li>        
         <li class="nav-item dropdown">
