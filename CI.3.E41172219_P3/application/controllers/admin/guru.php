@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Dashboard extends CI_Controller {
+class siswa extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -20,6 +20,8 @@ class Dashboard extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('user/dashboard');
+		$this->load->model("m_mapel");
+		$data['nama']=$this->m_mapel->daftar_mapel();
+		$this->load->view('admin/guru',$data);
 	}
 }

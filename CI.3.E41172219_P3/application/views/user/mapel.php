@@ -26,7 +26,7 @@
 
 <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 
-    <a class="navbar-brand mr-1" href="index.html">admin</a>
+    <a class="navbar-brand mr-1" href="index.html">Absensi </a>
 
     <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
       <i class="fas fa-bars"></i>
@@ -57,34 +57,24 @@
 </nav>
 
   <div id="wrapper">
-
-      <!-- Sidebar -->
-      <ul class="sidebar navbar-nav">
+    <!-- Sidebar -->
+    <ul class="sidebar navbar-nav">
       <li class="nav-item active">
         <a class="nav-link" href="dashboard">
           <i class="fas fa-fw fa-tachometer-alt"></i>
           <span>Dashboard</span>
         </a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <i class="fas fa-fw fa-folder"></i>
-          <span>Data</span>
-        </a>
-        <div class="dropdown-menu" aria-labelledby="pagesDropdown">
-          <h6 class="dropdown-header">Data:</h6>
-          <a class="dropdown-item" href="dataguru">Guru</a>
-          <a class="dropdown-item" href="datasiswa">Siswa</a>
-        </div>
-        <div class="dropdown-menu" aria-labelledby="pagesDropdown">
-          <h6 class="dropdown-header">Input Data:</h6>
-          <a class="dropdown-item" href="#">Guru</a>
-          <a class="dropdown-item" href="#">Siswa</a>
-        </div>
         <li class="nav-item dropdown">
-        <a class="nav-link" href="Mata_pelajaran">
+          <a class="nav-link" href='mapel'>
             <i class="fas fa-fw fa-folder"></i>
               <span>Mata Pelajaran</span>
+          </a>
+        </li>  
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="tables.html">
+            <i class="fas fa-fw fa-folder"></i>
+              <span>absen sekolah</span>
           </a>
         </li>        
         <li class="nav-item dropdown">
@@ -102,41 +92,26 @@
       	<!-- Breadcrumbs-->
         <ol class="breadcrumb">
           <li class="breadcrumb-item">
-            <a href="#">Data Guru</a>
+            <a href="#">Mata Pelajaran</a>
           </li>
         </ol>
         
        
 <div class="container">
-
-	<a href='tambahguru' class="btn btn-primary">Tambah Data Guru</a>
-
 	<table class='table table-bordered table-hover'><br><br>
 		<thead>
 			<tr>
-				<th>NIP</th>
-				<th>Nama Guru</th>
-				<th>Alamat</th>
-				<th>Email</th>
-        		<th>No HP</th>
-        		<th>Jenis Kelamin</th>
-        		<th>Kode Mapel</th>
-        		<th>Kelas</th>
+                <th>Hari</th>
+				<th>Nama Mata Pelajaran</th>
+				
 			</tr>
 		</thead>
 		<tbody>
 			<!-- ISI DATA AKAN MUNCUL DISINI -->
-		      <tr><?php foreach($nama as $row){ ?>
-         
-        <td> <?php echo $row->nip."</br>";?> </td>
-        <td> <?php echo $row->nama_guru."</br>";?> </td>
-        <td> <?php echo $row->alamat."</br>";?> </td>
-        <td> <?php echo $row->email."</br>";?> </td>
-        <td> <?php echo $row->no_hp."</br>";}?> </td>
-        <td> <?php echo $row->jk."</br>";}?> </td>
-        <td> <?php echo $row->kode_mapel."</br>";}?> </td>
-        <td> <?php echo $row->kelas."</br>";}?> </td>        
-        </tr>              
+		      <tr>
+				<td>0987654</td>
+                <td>Alucard</td>
+          </tr>              
 			
 		</tbody>
 	</table>
