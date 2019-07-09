@@ -24,77 +24,11 @@
 
 <body id="page-top">
 
-<nav class="navbar navbar-expand navbar-dark bg-dark static-top">
-
-    <a class="navbar-brand mr-1" href="index.html">admin</a>
-
-    <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
-      <i class="fas fa-bars"></i>
-    </button>
-
-    <!-- Navbar Search -->
-    <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
-      <div class="input-group">       
-        <div class="input-group-append">
-        </div>
-      </div>
-    </form>
-<!-- Navbar -->
-<ul class="navbar-nav ml-auto ml-md-0">
-  <li class="nav-item dropdown no-arrow">
-    <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <i class="fas fa-user-circle fa-fw"></i>
-    </a>
-    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-      <a class="dropdown-item" href="#">Settings</a>
-      <a class="dropdown-item" href="#">Activity Log</a>
-      <div class="dropdown-divider"></div>
-      <a class="dropdown-item" href='login.php' data-toggle="modal" data-target="#logoutModal">Logout</a>
-    </div>
-  </li>
-</ul>
-
-</nav>
+    <?php include 'navbar.php' ?>
 
   <div id="wrapper">
 
-      <!-- Sidebar -->
-      <ul class="sidebar navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="dashboard">
-          <i class="fas fa-fw fa-tachometer-alt"></i>
-          <span>Dashboard</span>
-        </a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <i class="fas fa-fw fa-folder"></i>
-          <span>Data</span>
-        </a>
-        <div class="dropdown-menu" aria-labelledby="pagesDropdown">
-          <h6 class="dropdown-header">Data:</h6>
-          <a class="dropdown-item" href="dataguru">Guru</a>
-          <a class="dropdown-item" href="datasiswa">Siswa</a>
-        </div>
-        <div class="dropdown-menu" aria-labelledby="pagesDropdown">
-          <h6 class="dropdown-header">Input Data:</h6>
-          <a class="dropdown-item" href="#">Guru</a>
-          <a class="dropdown-item" href="#">Siswa</a>
-        </div>
-        <li class="nav-item dropdown">
-        <a class="nav-link" href="Mata_pelajaran">
-            <i class="fas fa-fw fa-folder"></i>
-              <span>Mata Pelajaran</span>
-          </a>
-        </li>        
-        <li class="nav-item dropdown">
-          <a class="nav-link" href="tables.html">
-            <i class="fas fa-fw fa-table"></i>
-              <span>Tabel Presensi</span>
-          </a>
-        </li>
-      </li>
-    </ul>
+    <?php include 'sidebar.php'?> 
 
       <div id="content-wrapper">
 
@@ -109,7 +43,7 @@
        
 <div class="container">
 
-	<a href='tambahguru' class="btn btn-primary">Tambah Data Guru</a>
+	<a href="tambahguru/add" class="btn btn-primary">Tambah Data Guru</a>
 
 	<table class='table table-bordered table-hover'><br><br>
 		<thead>
@@ -126,17 +60,16 @@
 		</thead>
 		<tbody>
 			<!-- ISI DATA AKAN MUNCUL DISINI -->
-		      <tr><?php foreach($nama as $row){ ?>
-         
-        <td> <?php echo $row->nip."</br>";?> </td>
-        <td> <?php echo $row->nama_guru."</br>";?> </td>
-        <td> <?php echo $row->alamat."</br>";?> </td>
-        <td> <?php echo $row->email."</br>";?> </td>
-        <td> <?php echo $row->no_hp."</br>";}?> </td>
-        <td> <?php echo $row->jk."</br>";}?> </td>
-        <td> <?php echo $row->kode_mapel."</br>";}?> </td>
-        <td> <?php echo $row->kelas."</br>";}?> </td>        
-        </tr>              
+		      <tr>
+				  	<td>0987654</td>
+            <td>Alucard</td>
+            <td>L</td>
+            <td>11</td>
+            <td>Jalan Jalan</td>
+            <td>Bhs Inggris</td>
+					  <td>30007</td>
+					  <td>1</td>
+          </tr>              
 			
 		</tbody>
 	</table>
