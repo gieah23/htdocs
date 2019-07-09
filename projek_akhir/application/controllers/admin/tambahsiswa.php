@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Dataguru extends CI_Controller {
+class Datasiswa extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -20,11 +20,7 @@ class Dataguru extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->model("m_guru");
-		$data['nama']=$this->m_guru->daftar_guru();
-		$this->load->view('admin/',$data);
+		$this->load->view('admin/tambahsiswa');
 	}
-	function daftar_guru(){
-		return $this->db->get("guru")->result();
-	}
+	
 }

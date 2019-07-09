@@ -41,7 +41,14 @@
     </li>
   </ol>
 
+<<<<<<< HEAD
+<div class="container">
+	<h1>Data Siswa</h1>
+
+	<a href='admin/tambahsiswa' class="btn btn-primary">Tambah Data Siswa</a>
+=======
 	<a href="data/add" class="btn btn-primary">Tambah Data Siswa</a>
+>>>>>>> 8ed23b7cd7ad3a5d3725488f9a581f5b20a83acc
 
 	<table class='table table-bordered table-hover'><br><br>
 		<thead>
@@ -49,10 +56,15 @@
 				<th>NIS</th>
 				<th>Nama Siswa</th>				
         <th>Jenis Kelamin</th>        		
+<<<<<<< HEAD
+        <th>Kode Kelas</th>
+				<th>Jenis kelas</th>
+=======
         <th>Kelas</th>
 				<th>umur</th>
 				<th>golongan</th>
         <th>golongan</th>
+>>>>>>> 8ed23b7cd7ad3a5d3725488f9a581f5b20a83acc
 			</tr>
 		</thead>
 		<tbody>
@@ -63,17 +75,7 @@
                     <td>L</td>
                     <td>11</td>
                     <td>17</td>
-                    <td>A</td>
-                 </tr>
-                  <tr>
-                    <td>0932456</td>
-                    <td>Vexana</td>
-                    <td>P</td>
-                    <td>11</td>
-                    <td>16</td>
-                    <td>A</td>
-                 </tr>              
-			
+                 </tr> 
 		</tbody>
 	</table>
 </div>

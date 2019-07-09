@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 
@@ -108,8 +107,37 @@
         </ol>
         
        
-      </div>
-      <!-- /.container-fluid -->
+<div class="container">
+    <div class="form-group">
+        <label for="txt_nisn">NISN</label>
+        <input type="number" name="txt_nisn" class="form-control" id="txt_nisn">
+    </div>
+    <div class="form-group">
+        <label for="txt_nama_siswa">NAMA SISWA</label>
+        <Input type="text" name="txt_nama_siswa" id="txt_nama_siswa" rows="3">
+    </div> 
+    <div class="form-group">
+    <label for="txt_jk">Jenis Kelamin</label>
+        <select name="txt_jk" id="txt_jks" class="form-control" >
+            <option value="">-- Pilih Status --</option>
+            <option value="laki-laki">Laki-Laki</option>
+            <option value="perempuan">Perempuan</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="txt_kode_kelas">Kode Kelas</label>
+        <input type="text" name='txt_kode_kelas' class="form-control" id="txt_kode_kelas">
+    </div>
+    <div class="form-group">
+        <label for="txt_jenis_kelas">Jenis Kelas</label>
+        <select name="txt_jenis_kelas" id="txt_jenis_kelas" class="form-control" >
+            <option value="">-- Pilih jenis kelas --</option>
+            <option value="ipa">IPA</option>
+            <option value="ips">IPS</option>
+        </select>
+    </div>
+
+     <!-- /.container-fluid -->
 
       <!-- Sticky Footer -->
       <footer class="sticky-footer">
@@ -169,8 +197,6 @@
   <script src=<?php echo base_url("js/demo/datatables-demo.js");?>></script>
   <script src=<?php echo base_url("js/demo/chart-area-demo.js");?>></script>
 
+	
 </body>
-
-</html>
-=======
->>>>>>> 8ed23b7cd7ad3a5d3725488f9a581f5b20a83acc
+</html> \
