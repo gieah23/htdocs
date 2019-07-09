@@ -22,77 +22,14 @@
 <link href=<?php echo base_url("css/sb-admin-2.css"); ?> rel="stylesheet">
 
 </head>
-<body><nav class="navbar navbar-expand navbar-dark bg-dark static-top">
+<body>
+  <body id="page-top">
 
-<a class="navbar-brand mr-1" href="index.html">admin</a>
+    <?php include 'navbar.php' ?>
 
-<button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
-  <i class="fas fa-bars"></i>
-</button>
+  <div id="wrapper">
 
-<!-- Navbar Search -->
-<form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
-  <div class="input-group">       
-    <div class="input-group-append">
-    </div>
-  </div>
-</form>
-<!-- Navbar -->
-<ul class="navbar-nav ml-auto ml-md-0">
-<li class="nav-item dropdown no-arrow">
-<a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-  <i class="fas fa-user-circle fa-fw"></i>
-</a>
-<div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-  <a class="dropdown-item" href="#">Settings</a>
-  <a class="dropdown-item" href="#">Activity Log</a>
-  <div class="dropdown-divider"></div>
-  <a class="dropdown-item" href='login.php' data-toggle="modal" data-target="#logoutModal">Logout</a>
-</div>
-</li>
-</ul>
-
-</nav>
-
-<div id="wrapper">
-
-<!-- Sidebar -->
-<ul class="sidebar navbar-nav">
-<li class="nav-item active">
-  <a class="nav-link" href="dashboard">
-    <i class="fas fa-fw fa-tachometer-alt"></i>
-    <span>Dashboard</span>
-  </a>
-</li>
-<li class="nav-item dropdown">
-  <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    <i class="fas fa-fw fa-folder"></i>
-    <span>Data</span>
-  </a>
-  <div class="dropdown-menu" aria-labelledby="pagesDropdown">
-    <h6 class="dropdown-header">Data:</h6>
-    <a class="dropdown-item" href="admin/dataguru">Guru</a>
-    <a class="dropdown-item" href="admin/datasiswa">Siswa</a>
-  </div>
-  <div class="dropdown-menu" aria-labelledby="pagesDropdown">
-    <h6 class="dropdown-header">Input Data:</h6>
-    <a class="dropdown-item" href="#">Guru</a>
-    <a class="dropdown-item" href="#">Siswa</a>
-  </div>
-  <li class="nav-item dropdown">
-  <a class="nav-link" href="admin/mapel">
-      <i class="fas fa-fw fa-folder"></i>
-        <span>Mata Pelajaran</span>
-    </a>
-  </li>        
-  <li class="nav-item dropdown">
-    <a class="nav-link" href="tables.html">
-      <i class="fas fa-fw fa-table"></i>
-        <span>Tabel Presensi</span>
-    </a>
-  </li>
-</li>
-</ul>
+    <?php include 'sidebar.php'?> 
 
 <div id="content-wrapper">
 
@@ -104,10 +41,14 @@
     </li>
   </ol>
 
+<<<<<<< HEAD
 <div class="container">
 	<h1>Data Siswa</h1>
 
 	<a href='admin/tambahsiswa' class="btn btn-primary">Tambah Data Siswa</a>
+=======
+	<a href="data/add" class="btn btn-primary">Tambah Data Siswa</a>
+>>>>>>> 8ed23b7cd7ad3a5d3725488f9a581f5b20a83acc
 
 	<table class='table table-bordered table-hover'><br><br>
 		<thead>
@@ -115,8 +56,15 @@
 				<th>NIS</th>
 				<th>Nama Siswa</th>				
         <th>Jenis Kelamin</th>        		
+<<<<<<< HEAD
         <th>Kode Kelas</th>
 				<th>Jenis kelas</th>
+=======
+        <th>Kelas</th>
+				<th>umur</th>
+				<th>golongan</th>
+        <th>golongan</th>
+>>>>>>> 8ed23b7cd7ad3a5d3725488f9a581f5b20a83acc
 			</tr>
 		</thead>
 		<tbody>
@@ -193,7 +141,6 @@
   <script src=<?php echo base_url("js/demo/datatables-demo.js");?>></script>
   <script src=<?php echo base_url("js/demo/chart-area-demo.js");?>></script>
 
-	
 </body>
-</html>
 
+</html>

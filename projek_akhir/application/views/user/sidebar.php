@@ -9,13 +9,17 @@
         <li class="nav-item dropdown">
           <a class="nav-link" href='mapel'>
             <i class="fas fa-fw fa-folder"></i>
-              <span>Mata Pelajaran</span>
+              <span>Jadwal Pelajaran</span>
           </a>
         </li>  
         <li class="nav-item dropdown">
           <a class="nav-link" href="tables.html">
             <i class="fas fa-fw fa-folder"></i>
+<<<<<<< HEAD
               <span>absen sekolah</span>
+=======
+              <span>Absensi</span>
+>>>>>>> 8ed23b7cd7ad3a5d3725488f9a581f5b20a83acc
           </a>
         </li>        
         <li class="nav-item dropdown">

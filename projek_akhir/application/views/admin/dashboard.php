@@ -42,7 +42,11 @@
           <li class="breadcrumb-item active">Overview</li>
         </ol>
         
+<<<<<<< HEAD
         <?php include 'isidashboard.php' ?>
+=======
+        <?php include 'isidahsboard.php' ?>
+>>>>>>> 8ed23b7cd7ad3a5d3725488f9a581f5b20a83acc
 
       </div>
       <!-- /.container-fluid -->
