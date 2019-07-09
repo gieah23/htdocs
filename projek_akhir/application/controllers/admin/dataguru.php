@@ -21,7 +21,10 @@ class Dataguru extends CI_Controller {
 	public function index()
 	{
 		$this->load->model("m_guru");
-		$data['nama']=$this->m_guru->dataguru();
-		$this->load->view('admin/guru',$data);
+		$data['nama']=$this->m_guru->daftar_guru();
+		$this->load->view('admin/',$data);
+	}
+	function daftar_guru(){
+		return $this->db->get("guru")->result();
 	}
 }

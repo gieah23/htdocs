@@ -107,7 +107,7 @@
 <div class="container">
 	<h1>Data Siswa</h1>
 
-	<a href="data/add" class="btn btn-primary">Tambah Data Siswa</a>
+	<a href='admin/tambahsiswa' class="btn btn-primary">Tambah Data Siswa</a>
 
 	<table class='table table-bordered table-hover'><br><br>
 		<thead>
@@ -115,9 +115,8 @@
 				<th>NIS</th>
 				<th>Nama Siswa</th>				
         <th>Jenis Kelamin</th>        		
-        <th>Kelas</th>
-				<th>umur</th>
-				<th>golongan</th>
+        <th>Kode Kelas</th>
+				<th>Jenis kelas</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -128,17 +127,7 @@
                     <td>L</td>
                     <td>11</td>
                     <td>17</td>
-                    <td>A</td>
-                 </tr>
-                  <tr>
-                    <td>0932456</td>
-                    <td>Vexana</td>
-                    <td>P</td>
-                    <td>11</td>
-                    <td>16</td>
-                    <td>A</td>
-                 </tr>              
-			
+                 </tr> 
 		</tbody>
 	</table>
 </div>
