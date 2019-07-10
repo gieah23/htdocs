@@ -20,6 +20,6 @@ class Datasiswa extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('admin/jadwalpelajaran');
+		$this->load->view('user/jadwalpelajaran');
 	}
 }
